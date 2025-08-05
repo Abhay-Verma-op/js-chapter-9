@@ -2,6 +2,7 @@
 //   return new Promise((resolve, reject) => {
 //     let script = document.createElement("script");
 //     script.src = src;
+
 //     script.onload = () => {
 //       resolve(src +  " done success ");
 //     };
@@ -93,3 +94,10 @@ const main=async()=>{
   console.timeEnd("run")
 }
 main()
+
+
+
+// optional
+//let img = document.createElement("img");
+// img.src = "dog.jpg"; // sets the image file to load
+//  End
